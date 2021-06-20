@@ -1,3 +1,4 @@
+//https://github.com/flyingwolfz/point-oriented-algorithms-CGH-opencv
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>  
 #include <opencv2/imgproc/imgproc.hpp>  
@@ -66,7 +67,7 @@ int main()
 	}
 	
 	
-	imshow("��ʾͼ��", t);
+	imshow("ÏÔÊ¾Í¼Ïñ", t);
 	imwrite("C:\\Users\\22337\\Desktop\\cdianyun.png", t);
 	waitKey(0);
 	return 0;
